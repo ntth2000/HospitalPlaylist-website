@@ -1,0 +1,75 @@
+body{
+    background-color: #caf0f8;
+    color: #0077B6;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    font-family: 'Tomorrow', sans-serif;;
+}
+.text h2{
+    color:#90e0ef;
+}
+#name h2{
+    color:#90e0ef;
+    font-weight: 100;
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+#name span{
+    color:#00b4d8;
+}
+#mainNavbar{
+    font-size: 1.3rem;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #0077B6;;
+}
+
+#mainNavbar .navbar-brand{
+    color: #0077B6;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+@media (max-width:1200px){
+    #name h2{
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+    .text h2{
+        font-size: 1.5rem;
+    }
+}
+
+svg{
+    color:white;
+}
+
+.lead, .lead p{
+    font-size: small;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.lead span{
+    font-weight: bold;
+}
+
+.parttwo{
+    margin-bottom:50px;
+    margin-top: 50px;
+}
+
+.navbar.scrolled {
+    background: #48cae4;
+    transition: background 500ms;
+}
